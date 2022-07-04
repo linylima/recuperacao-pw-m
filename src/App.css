@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.principal{
-  display: flex;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -43,4 +39,21 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  font-family:'open-sans';
+  margin: 10px;
+}
+.top{
+font-family: 'opens-sans';
+}
+.cardPai{
+  font-family: 'opens-sans';
+  
+}
+.cardPai{
+  display: flex;
+  margin-top: 150px;
 }
